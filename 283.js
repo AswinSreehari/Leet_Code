@@ -12,9 +12,9 @@ var moveZeroes = function(nums) {
         } else {
             if (nums[high] !== 0) {
                 [nums[low], nums[high]] = [nums[high], nums[low]];
-         low ++
+         low ++;
             }
-            high ++
+            high ++;
         }
     }
 
