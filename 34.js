@@ -26,3 +26,16 @@ var searchRange = function(nums, target) {
     }
     return [startIndex , endIndex];
 };
+
+//Solution #2 : 
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var searchRange = function(nums, target) {
+
+    return [nums.indexOf(target) , nums.lastIndexOf(target)]; 
+
+};
