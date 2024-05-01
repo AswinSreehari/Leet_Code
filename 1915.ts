@@ -18,5 +18,4 @@ function wonderfulSubstrings(word: string): number {
         }
     
         return ans;
-        
     };
