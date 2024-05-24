@@ -13,4 +13,4 @@ for (let i = 0; i < nums.length; i++) {
     }
 }
 return Math.max(count, max);
-};
+};492.ts
